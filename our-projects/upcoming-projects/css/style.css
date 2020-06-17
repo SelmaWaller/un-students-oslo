@@ -77,10 +77,10 @@ body {
 }
 
 .banner {
-  background-image: url(https://wallerweave.com/semester-project/images/banner-new.jpg);
+  background-image: url("../../../images/banner-new-2.jpg");
   min-height: 252px;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   overflow: hidden;
 }
@@ -510,7 +510,7 @@ nav {
 /* mobile big */
 @media screen and (max-width: 475px) {
   .banner {
-    background-image: url(https://wallerweave.com/semester-project/images/new-banner-mobile.png);
+    background-image: url("../../../images/new-banner-mobile.png");
     background-size: contain;
     background-position: top center;
     background-repeat: no-repeat;
